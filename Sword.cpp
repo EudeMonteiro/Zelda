@@ -20,3 +20,9 @@ void Sword::print( ) const
     cout << "Strength: "   << strength << '\n';
     cout << "Durability: " << durability << '\n';
 }
+
+void Sword::reduceStrength( )
+{
+    strength -= 2;
+    cout << "\nO atributo Strength foi reduzido!\n\n";
+}
